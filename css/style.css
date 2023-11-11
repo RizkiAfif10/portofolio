@@ -198,8 +198,9 @@ header.sticky {
 }
 
 .about-img img {
-  width: 95%;
-  height: 95%;
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
   max-width: 530px;
   border-radius: 50%;
   object-fit: cover;
@@ -245,6 +246,7 @@ header.sticky {
   align-items: center;
   gap: 2.3rem;
   margin-top: 4.2rem;
+  height: 350px;
 }
 
 .box {
@@ -469,7 +471,7 @@ form .send-btn:hover {
     padding: 18px 5%;
   }
   .hero {
-    height: 90vh;
+    height: 100vh;
     background-position: center;
   }
 }
@@ -574,5 +576,34 @@ form .send-btn:hover {
   .hero {
     height: 100vh;
     background-position: center;
+  }
+
+  .hero h1 {
+    font-size: 25px;
+  }
+
+  .about h2 {
+    font-size: 25px;
+  }
+
+  .about img {
+    width: 75%;
+    height: 75%;
+  }
+  .exp-area {
+    text-align: left;
+    margin-left: 9%;
+  }
+
+  form .send-btn {
+    font-size: 15px;
+    font-weight: 600;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .services-content {
+    height: 130vh;
+    margin-top: 10px;
   }
 }
